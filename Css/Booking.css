@@ -1,0 +1,240 @@
+   * {
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            box-sizing: border-box;
+  
+        }
+        body {
+            background-size:cover;
+            background-image: linear-gradient(#3C3B3F, #605C3C);
+            background-position: center center;
+        }
+        .logo {
+            width: 20%;
+            float: right;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 25px;
+            text-align: center;
+            padding-top: 0.75%;
+            font-family:Anton, cursive;
+        }
+        /* Navbar container */
+        .navbar {
+          overflow: hidden;
+          background-color: #1C1D21;
+          font-family: Anton;
+        }
+        /* Links inside the navbar */
+        .navbar a {
+          float: left;
+          font-size: 16px;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        /* The dropdown container */
+        .dropdown {
+          float: left;
+          overflow: hidden;
+        }
+        /* Dropdown button */
+        .dropdown .dropbtn {
+          font-size: 16px; 
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit;
+          font-family: inherit; /* Important for vertical align on mobile phones */
+          margin: 0; /* Important for vertical align on mobile phones */
+        }
+        /* Add a red background color to navbar links on hover */
+        .navbar a:hover, .dropdown:hover .dropbtn {
+          background-color: #605C3C;
+        }
+        /* Dropdown content (hidden by default) */
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        /* Links inside the dropdown */
+        .dropdown-content a {
+          float: none;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+        /* Add a grey background color to dropdown links on hover */
+        .dropdown-content a:hover {
+          background-color: #ddd;
+        }
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        #Username
+        {
+          border:none;
+          border-bottom:1px solid;
+        }
+        .screen
+        {
+          width:100%;
+          height:20px;
+          background:#4388cc;
+          color:#fff;
+          line-height:20px;
+          font-size:15px;
+        }
+        .smallBox::before
+        {
+          content:".";
+          width:15px;
+          height:15px;
+          float:left;
+          margin-right:10px;
+        }
+        .greenBox::before
+        {
+          content:"";
+          background:Green;
+        }
+        .redBox::before
+        {
+          content:"";
+          background:Red;
+        }
+        .emptyBox::before
+        {
+          content="";
+          box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+          background-color:#ccc;
+        }
+        .seats
+        {
+          border:1px solid red;background:yellow;
+        }
+        .seatGap
+        {
+          width:40px;
+        }
+        .seatVGap
+        {
+          height:40px;
+        }
+        table
+        {
+          text-align:center;
+        }
+        .Displaytable
+        {
+          text-align:center;
+            background-color: white;
+        }
+        .Displaytable td, .Displaytable th {
+            border: 1px solid;
+            text-align: left;
+        }
+        textarea
+        {
+          border:none;
+          background:transparent;
+        }
+        input[type=checkbox] {
+            width:0px;
+            margin-right:18px;
+        }
+        input[type=checkbox]:before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            vertical-align:middle;
+            text-align: center;
+            box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+            background-color:#ccc;
+        }
+        input[type=checkbox]:checked:before {
+            background-color:Green;
+            font-size: 15px;
+        }
+        .footer
+        {
+          overflow: hidden;
+          background-color: #1C1D21;
+          position: sticky;
+          color: white;
+          font-family: cursive;
+          width: 100%;
+          top: 100%;
+          overflow: hidden;
+          padding-bottom: -20%;
+
+        }
+        .footer h4
+        {
+          font-weight: bold;
+          font-family: Gadget;
+          font-size: 21px;
+          margin-left: 130px; 
+          margin-bottom:  -10px;
+        }
+        .footer p
+        {
+          font-size: 13px;
+          margin-left: 50px;
+
+        }
+        .footer input
+        {
+          margin-top: 1.5%;
+          height: 5%;
+          margin-left: 5.4%;
+          width: 13%;
+        }
+        .footer .BUT
+        {
+          margin-left: -0.01%;
+          width: 5%;
+        }
+        .footer #copy
+        {
+          margin-left: 75%;
+        }
+        .footer .socialMedia
+        {
+          text-align: center; 
+          margin-top: -7%;
+        }
+        .socialMedia
+        {
+          margin-left: 20%;
+        }
+        .socialMedia li
+        {
+          display: inline-block;
+          list-style-type: none;
+        }
+        .socialMedia ul
+        {
+          margin-bottom: -5%;
+        }
+        .socialMedia img
+        {
+          width: 35%;
+          height: 35%;
+          margin-top: -40%;
+        }
+        .socialMedia img:hover
+        {
+          opacity: 0.7;
+        }
